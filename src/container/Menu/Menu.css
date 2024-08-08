@@ -1,0 +1,75 @@
+.app__menu {
+    flex-direction: column;
+}
+
+.app__menu-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__menu-heading p {
+    color: var(--FFFFFF, #FFF);
+    font-family: var(--font-base);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+
+.app__menu-body {
+    margin: 64px 0;
+    display: flex;
+}
+
+.app__menu-body img {
+    width: 444px;
+    height: 659px;
+}
+
+.app__menu-body h1 {
+    color: var(--FFFFFF, #FFF);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    /* H3 45px Cormorant upright Semi */
+    font-family: var(--font-base);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 58.5px */
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+}
+
+.app__menu-button {
+    color: var(--color-black);
+    /* Button */
+    font-family: var(--font-base);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%;
+    /* 28px */
+    letter-spacing: 0.64px;
+    padding: 8px 32px;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__menu-img {
+        display: none;
+    }
+
+    .app__menu-body {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__menu-body {
+        flex-direction: column;
+    }
+}

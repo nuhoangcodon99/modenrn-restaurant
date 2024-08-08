@@ -1,0 +1,15 @@
+.app__awardcard {
+    display: flex;
+    gap: 2rem;
+    margin-top: 64px;
+}
+
+.app__awardcard img {
+    width: 80px;
+    height: 80px;
+}
+
+.app__awardcard-text_title {
+    color: var(--color-golden);
+    margin-bottom: 8px;
+}

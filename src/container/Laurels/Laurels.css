@@ -1,0 +1,22 @@
+.app__laurels-logo {
+    width: 146px;
+    height: 146px;
+    margin-bottom: 40px;
+}
+
+.app__laurels-laurels_img {
+    width: 795px;
+    height: 1192px;
+    flex-shrink: 0;
+}
+
+.app__laurels-award_card {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media screen and (max-width: 650px) {
+    .app__laurels-award_card {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
